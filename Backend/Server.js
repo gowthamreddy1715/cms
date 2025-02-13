@@ -24,7 +24,6 @@ app.use('/users',require("./Routes/goUsers"))
 app.use('/policies',require("./Routes/goPolicy"))
 app.use('/claims',require("./Routes/goClaims"))
 app.use('/policyholder',require("./Routes/goPolicyholder"))
-
 app.listen(port,()=>{
     console.log(`Server runs on port ${port}`)
 })
